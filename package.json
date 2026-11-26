@@ -1,0 +1,21 @@
+{
+  "name": "com.archnet.module.inputsystem",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Input Module",
+  "description": "Game controls on Unity's Input System, ready in one click: keyboard, mouse and gamepad actions (move, look, jump, interact, sprint, back), the Escape / Back key that closes menus and pauses, and a Controls screen where players change their keys, saved.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "documentationUrl": "https://archnet-plateform.fr/#ModuleInputSystem",
+  "changelogUrl": "https://github.com/ArchNet-1/ModuleInputSystem/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ModuleInputSystem/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.inputsystem": "1.11.0",
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": ["archnet", "module", "input", "controls", "rebinding", "gamepad", "keyboard"],
+  "author": {
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
+  }
+}

@@ -1,0 +1,23 @@
+// Created by the ArchNet Hub (Services > Inputs). This file is yours: change it freely.
+// Read the controls from anywhere:
+//   Vector2 move = Services.Get<GameInput>().Move.ReadValue<Vector2>();
+//   if (Services.Get<GameInput>().Jump.WasPressedThisFrame()) …
+// Edit the actions and their keys: Assets/ArchNet/Inputs/GameControls.inputactions
+// (add an action there, then a property here). Escape / gamepad Start or B / Android back
+// close the open screen, or pause the game (BackPressed).
+// Docs: https://archnet-plateform.fr/#ModuleInputSystem
+
+using ArchNet.Module;
+using UnityEngine.InputSystem;
+
+namespace {{NAMESPACE}}
+{
+    public class GameInput : InputService
+    {
+        public InputAction Move => Action("Gameplay/Move");
+        public InputAction Look => Action("Gameplay/Look");
+        public InputAction Jump => Action("Gameplay/Jump");
+        public InputAction Interact => Action("Gameplay/Interact");
+        public InputAction Sprint => Action("Gameplay/Sprint");
+    }
+}

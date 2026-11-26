@@ -1,0 +1,20 @@
+{
+    "name": "ArchNet.Module.InputSystem",
+    "rootNamespace": "ArchNet.Module",
+    "references": [
+        "ArchNet.Core",
+        "ArchNet.Core.UI",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
